@@ -1,0 +1,32 @@
+{
+  "name": "multi-model-ai-discord-bot",
+  "version": "2.0.0",
+  "description": "Multi-model AI Discord bot with intelligent task routing using 5 specialized OpenRouter models",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "discord.js": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "lucide-react": "^0.454.0",
+    "next": "15.2.4",
+    "node-fetch": "latest",
+    "react": "^19",
+    "react-dom": "^19",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8.5",
+    "typescript": "^5"
+  }
+}
